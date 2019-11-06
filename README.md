@@ -1,45 +1,18 @@
-line-bot-sdk-tiny
-==
+Line Bot 基礎範例程式碼教學 (PHP) - 輕量版 LINEBotTiny.php
+====================
 
-A very simple SDK (subset) for the LINE Messaging API for PHP.
+在開始之前，可以先加範例機器人！([@omp3220g](https://line.me/R/ti/p/j1sMDEJCyW "@omp3220g"))
 
-Description (and motivation)
---
+#### 範例指令
+- [類型：text](https://github.com/GoneTone/line-example-bot-php/wiki/類型：text) > `text` 或 `文字`
+- [類型：image](https://github.com/GoneTone/line-example-bot-php/wiki/類型：image) > `image` 或 `圖片`
+- [類型：video](https://github.com/GoneTone/line-example-bot-php/wiki/類型：video) > `video` 或 `視頻` 或 `影片`
+- [類型：audio](https://github.com/GoneTone/line-example-bot-php/wiki/類型：audio) > `audio` 或 `音頻` 或 `音樂`
+- [類型：location](https://github.com/GoneTone/line-example-bot-php/wiki/類型：location) > `location` 或 `地址` 或 `位置`
+- [類型：sticker](https://github.com/GoneTone/line-example-bot-php/wiki/類型：sticker) > `sticker` 或 `貼圖` 或 `貼紙`
+- [類型：imagemap](https://github.com/GoneTone/line-example-bot-php/wiki/類型：imagemap) > `imagemap` 或 `圖像地圖` 或 `圖片地圖`
+- [類型：template (buttons)](https://github.com/GoneTone/line-example-bot-php/wiki/類型：template#類型buttons) > `buttons template` 或 `按鈕模板`
+- [類型：template (confirm)](https://github.com/GoneTone/line-example-bot-php/wiki/類型：template#類型confirm) > `confirm template` 或 `確認模板`
+- [類型：template (carousel)](https://github.com/GoneTone/line-example-bot-php/wiki/類型：template#類型carousel) > `carousel template` 或 `輪播模板`
 
-[line-bot-sdk-php](https://github.com/line/line-bot-sdk-php) is a full-stack implementation of the LINE Messaging API SDK, which uses an OOP interface and functions. It provides an API client, a message builder, an HTTP client, an event parser and other useful components.
-
-On the other hand, line-bot-sdk-tiny provides a simple interface and functions. It contains a part of the API functions (not full function).
-
-This SDK contains only one file, so it is easy to add `LINEBotTiny.php` to your environment and require that from your script.
-And of course, you can also copy and paste this SDK.
-
-Example
---
-
-See [echo_bot](./echo_bot.php).
-
-When running this example, make sure that you have set your Channel access token and Channel secret.
-
-Requirements
---
-
-PHP 5.5 or later
-
-License
---
-
-```
-Copyright 2016 LINE Corporation
-
-LINE Corporation licenses this file to you under the Apache License,
-version 2.0 (the "License"); you may not use this file except in compliance
-with the License. You may obtain a copy of the License at:
-
-  https://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
-License for the specific language governing permissions and limitations
-under the License.
-```
+教學請看 Wiki：[點此前往](https://github.com/GoneTone/line-example-bot-php/wiki)
